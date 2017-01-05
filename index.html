@@ -15,21 +15,22 @@
 
     <meta property="og:url"           content="http://cssdiner.com" />
     <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="CSS Diner" />
-    <meta property="og:description"   content="A fun game to help you learn and practice CSS selectors." />
+    <meta property="og:title"         content="Jantar CSS" />
+    <meta property="og:description"   content="Um jogo divertido para ensinar seletores CSS." />
     <meta property="og:image"         content="https://flukeout.github.io/images/fb-share.jpg" />
+    <meta charset="utf-8">
   </head>
 
   <body>
     <div class="left-col">
 
       <header>
-        CSS Diner
+        Jantar CSS
         <div class="logo">
           <plate><apple /></plate>
         </div>
         <span class="share-menu">
-          Share
+          Compartilhe
           <a class="share-twitter" type="twitter" href="#"></a>
           <a class="share-facebook" type="facebook" href="#"></a>
           <a class="share-email" type="email" href="#"></a>
@@ -39,13 +40,13 @@
       <h2 class="order"></h2>
 
       <div class="note">
-        <h3>No worries, you've got this!</h3>
+        <h3>Não se preocupe, você fará isso!</h3>
         <p>
-          You're about to learn CSS Selectors!
-          Selectors are how you pick which element to apply styles to.
+          Você aprenderá sobre seletores CSS!
+          Seletores são o que usamos para escolher elementos e aplicar estilos.
         </p>
 
-        <h4>Exhibit 1 - A CSS Rule</h4>
+        <h4>Explicação 1 - Uma regra CSS</h4>
 
         <pre>
 p {
@@ -53,21 +54,21 @@ p {
 }</pre>
 
         <p>
-          Here, the "p" is the selector (selects all &lt;p&gt; elements) and applies the margin-bottom style.
+          O seletor "p" está selecionando todos os parágrafos e aplicando o estilo margin-bottom.
         </p>
         <p>
-          To play, type in a CSS selector in the editor below to select the correct items on the table.If you get it right, you'll advance to the next level.
+          Para jogar, escreva um seletor CSS no editor abaixo para selecionar os itens corretos da mesa. Se você fizer isso corretamente avançará de nível.
         </p>
         <p>
-          Hover over the items on the table to see their HTML markup.
+          Passe o mouse sobre os itens na mesa para ver sua marcação HTML.
         </p>
         <p>
-          Get help with selectors on the right! &rarr;
+          Encontre ajuda à direita! &rarr;
         </p>
-        <a class="note-toggle" href="#">Ok, got it!</a>
+        <a class="note-toggle" href="#">Ok, entendi!</a>
       </div>
 
-      <a class="note-toggle" href="#">Help, I'm stuck!</a>
+      <a class="note-toggle" href="#">Precisa de ajuda?</a>
 
       <div class="game-wrapper">
         <div class="table-wrapper">
@@ -91,17 +92,17 @@ p {
             <div class="line-numbers">
               1<br/>2<br/>3<br/>4<br/>5<br/>6<br/>7<br/>8<br/>9<br/>10<br/>11<br/>12<br/>13<br/>14<br/>15<br/>16<br/>17<br/>18<br/>19<br/>20
             </div>
-              <input class="input-strobe" type="text" placeholder="Type in a CSS selector"/><span class="plus">+</span><div class="enter-button">enter</div>
+              <input class="input-strobe" type="text" placeholder="Escreva um seletor CSS"/><span class="plus">+</span><div class="enter-button">enter</div>
             <div>
             {<br/>
-            /* Styles would go here. */<br/>
+            /* Estilos estariam aqui. */<br/>
             }
             </div>
             <div class="help">
               <br/>
               /* <br/>
-              Type a number to skip to a level.<br/>
-              Ex &rarr; "5" for level 5 <br/>*/
+              Escreva um número para pular o nível.<br/>
+              Ex &rarr; "5" para nível 5 <br/>*/
             </div>
           </div>
         </div>
@@ -120,10 +121,13 @@ p {
 
       <div class="what-is-this">
         <p>
-          Made by <a href="http://www.twitter.com/flukeout">@flukeout</a> &mdash; come say hi!
+          Feito originalmente por <a href="http://www.twitter.com/flukeout">@flukeout</a> &mdash;
         </p>
         <p>
-          Have feedback or questions? Please file an isssue on <a href="https://github.com/flukeout/css-diner/issues">the Github repo</a>.
+          Agora modificado por <a href="http://www.twitter.com/daliannyvieira">@daliannyvieira</a> especialmente para o <a href="https://github.com/VaiNaWeb/">Vai na Web</a>.
+        </p>
+        <p>
+          Tem dúvidas ou sugestões? Por favor crie uma isssue <a href="https://github.com/flukeout/css-diner/issues">no repositório do Github</a>.
         </p>
       </div>
 
@@ -152,15 +156,15 @@ p {
           <h2 class="title"></h2>
           <h3 class="syntax"></h3>
           <div class="hint"></div>
-          <h4 class="examples-title">Examples</h4>
+          <h4 class="examples-title">Exemplos</h4>
           <div class="examples"></div>
         </div>
       </div>
 
       <div class="level-menu">
-        <h2>Choose a level</h2>
+        <h2>Escolha um nível</h2>
         <div class="levels"><!-- level links are inserted here--></div>
-        <a class="reset-progress" href="#">Reset Progress</a>
+        <a class="reset-progress" href="#">Reinicie a pontuação</a>
       </div>
 
       <div class="level-menu-toggle-wrapper">
