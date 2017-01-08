@@ -617,14 +617,14 @@ var levels = [
     `
   },
   {
-    selectorName: "Attribute Starts With Selector",
-    helpTitle: "Select all elements with an attribute value that starts with specific characters",
-    doThis : "Select the items for names that start with 'Sa'",
+    selectorName: "Atribuindo Seletor Começa Com (Starts With)",
+    helpTitle: "Seleciona todos os elementos que comecem com o valor especifícado",
+    doThis : "Seleciona os itens que comecem com 'Sa'",
     selector : '[for^="Sa"]',
     syntax: '[attribute^="value"]',
-    // help : "You can use quotes around the value in the selector, or not&mdash;it's optional!",
+    help : "Você pode usar aspas ao redor do valor no seletor ou não; É opcional!",
     examples : [
-      '<strong>.toy[category^="Swim"]</strong> selects elements with class <strong>toy</strong> and either <strong>category="Swimwear</strong> or <strong>category="Swimming"</strong>.'
+      '<strong>.toy[category^="Swim"]</strong> seleciona elementos com a classe  <strong>toy</strong> e com a category <strong>category="Swimwear</strong> ou <strong>category="Swimming"</strong>.'
     ],
     boardMarkup: `
     <plate for="Sam"><pickle/></plate>
@@ -633,8 +633,8 @@ var levels = [
     `
   },
   {
-    selectorName: "Atribuindo Seletor Ends With",
-    helpTitle: "Seleciona todos os elementos que terminem com caracteres específicos.",
+    selectorName: "Atribuindo Seletor Termina Com (Ends With)",
+    helpTitle: "Seleciona todos os elementos que terminem com o valor especifícado.",
     doThis : "Seleciona os itens que terminem com 'ato'",
     selector : '[for$="ato"]',
     syntax: '[attribute$="value"]',
@@ -651,7 +651,7 @@ var levels = [
     `
   },
   {
-    selectorName: "Atribuindo Wildcard Selector",
+    selectorName: "Atribuindo Seletor Coringa (Wildcard Selector)",
     helpTitle: "Selecione todos os elementos com um atributo que contenha caracteres específicos em qualquer lugar",
     syntax: '[attribute*="value"]',
     doThis : "Selecione as refeições que contenham 'obb'",
