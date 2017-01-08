@@ -651,15 +651,15 @@ var levels = [
     `
   },
   {
-    selectorName: "Attribute Wildcard Selector",
-    helpTitle: "Select all elements with an attribute value that contains specific characters anywhere",
+    selectorName: "Atribuindo Wildcard Selector",
+    helpTitle: "Selecione todos os elementos com um atributo que contenha caracteres específicos em qualquer lugar",
     syntax: '[attribute*="value"]',
-    doThis : "Select the meals for names that contain 'obb'",
+    doThis : "Selecione as refeições que contenham 'obb'",
     selector : '[for*="obb"]',
-    help : 'A useful selector if you can identify a common pattern in things like <strong>class</strong>, <strong>href</strong> or <strong>src</strong> attributes.',
+    help : 'Um seletor muito uso se você puder indentificar padrões comuns como em: <strong>class</strong>, <strong>href</strong>, <strong>src</strong>, ou atributos',
     examples : [
-      '<strong>img[src*="/thumbnails/"]</strong> selects all image selements that show images from the "thumbnails" folder.',
-      '<strong>[class*="heading"]</strong> selects all elements with "heading" in their class, like <strong>class="main-heading"</strong> and <strong>class="sub-heading"</strong>'
+      '<strong>img[src*="/thumbnails/"]</strong> seleciona todas as imagens que sejam vindas da pasta "thumbnails".',
+      '<strong>[class*="heading"]</strong> seleciona todos os elementos que tenha "heading"em suas classes, como <strong>class="main-heading"</strong> e <strong>class="sub-heading"</strong>'
     ],
     boardMarkup:`
     <bento for="Robbie"><apple /></bento>
