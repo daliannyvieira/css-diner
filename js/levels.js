@@ -633,14 +633,14 @@ var levels = [
     `
   },
   {
-    selectorName: "Attribute Ends With Selector",
-    helpTitle: "Select all elements with an attribute value that ends with specific characters",
-    doThis : "Select the items for names that end with 'ato'",
+    selectorName: "Atribuindo Seletor Ends With",
+    helpTitle: "Seleciona todos os elementos que terminem com caracteres específicos.",
+    doThis : "Seleciona os itens que terminem com 'ato'",
     selector : '[for$="ato"]',
     syntax: '[attribute$="value"]',
     help : '',
     examples : [
-      '<strong>img[src$=".jpg"]</strong> selects all images display a <strong>.jpg</strong> image.',
+      '<strong>img[src$=".jpg"]</strong> seleciona todas as imagens que mostrem um <strong>.jpg</strong>.',
     ],
     boardMarkup:`
     <apple class="small"/>
