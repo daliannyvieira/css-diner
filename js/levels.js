@@ -581,16 +581,16 @@ var levels = [
     <pickle/>`
   },
   {
-    selectorName: "Attribute Selector",
+    selectorName: "Seletor de Atributo",
     helpTitle: "Selecione todos os elementos que têm um atributo específico",
     doThis : "Selecione os pratos para alguém",
     selector : "plate[for]",
     syntax: "A[attribute]",
-    help : "Combine the attribute selector with another selector (like the tag name selector) by adding it to the end.",
+    help : "Combine o seletor de atributo com outro seletor (como o seletor de tags) adicionando-o no fim.",
     examples : [
-      '<strong>[value]</strong> selects all elements that have a <strong>value="anything"</strong> attribute.',
-      '<strong>a[href]</strong> selects all <tag>a</tag> elements that have a <strong>href="anything"</strong> attribute.',
-      '<strong>input[disabled]</strong> selects all <tag>input</tag>strong> elements with the <strong>disabled</strong> attribute'
+      '<strong>[value]</strong> seleciona todos os elementos que tenham o valor <strong>value="anything"</strong>.',
+      '<strong>a[href]</strong> seleciona todos os elementos <tag>a</tag> que contenham o valor <strong>href="anything"</strong>.',
+      '<strong>input[disabled]</strong> seleciona todas os elementos <tag>input</tag>strong> com o atributo <strong>disabled</strong>.'
     ],
     boardMarkup:`
     <plate for="Sarah"><pickle/></plate>
@@ -600,14 +600,14 @@ var levels = [
     `
   },
   {
-    selectorName: "Attribute Value Selector",
-    helpTitle: "Select all elements that have a specific attribute value",
-    doThis : "Select Vitaly's meal",
+    selectorName: "Atribuindo Seletor de Valor (Value Selector)",
+    helpTitle: "Seleciona todos os elementos que contenham um valor especifícado.",
+    doThis : "Selecione a refeição da Vitaly",
     selector : "[for=Vitaly]",
     syntax: '[attribute="value"]',
-    help : "Attribute selectors are case sensitive, each character must match exactly.",
+    help : "Seletores de atributos são case sensitive (diferencia-se maíuscula de minuscula), então cada caracter deve ser exatamente igual.",
     examples : [
-      '<strong>input[type="checkbox"]</strong> selects all checkbox input elements.'
+      '<strong>input[type="checkbox"]</strong> seleciona todos os elementos do elemento input do tipo checkbox.'
     ],
     boardMarkup:`
     <apple for="Alexei" />
