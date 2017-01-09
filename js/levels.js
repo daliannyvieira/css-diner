@@ -452,13 +452,13 @@ var levels = [
     `
   },
   {
-    selectorName: "Nth-of-type Selector with Formula",
-    doThis: "Select every 2nd plate, starting from the 3rd",
+    selectorName: "Seletor N-de-um-tipo com formula (Nth-of-type Selector with Formula)",
+    doThis: "Selecione todo segundo prato, a partir do terceiro",
     selector: "plate:nth-of-type(2n+3)",
     syntax: ":nth-of-type(An+B)",
-    help: "The nth-of-type formula selects every nth element, starting the count at a specific instance of that element.",
+    help: "O nth-de-um-tipo seleciona todo elemento N, a partir da instância especifícada daquele elemento.",
     examples: [
-      '<strong>span:nth-of-type(6n+2)</strong> selects every 6th instance of a <tag>span</tag>, starting from (and including) the second instance.'
+      '<strong>span:nth-of-type(6n+2)</strong> seleciona toda 6º instância da <tag>span</tag>, começando com (e incluindo) a segunda instância'
     ],
     boardMarkup : `
     <plate/>
