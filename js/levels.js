@@ -563,15 +563,15 @@ var levels = [
     `
   },
   {
-    selectorName: "Attribute Selector",
-    helpTitle: "Select all elements that have a specific attribute",
-    doThis : "Select the items for someone",
+    selectorName: "Seletor de Atributo (Attribute Selector)",
+    helpTitle: "Seleciona todos os elementos que tenham um atributo especifico",
+    doThis : "Selecione os items para alguém",
     selector : "[for]",
     syntax: "[attribute]",
-    help : 'Attributes appear inside the opening tag of an element, like this: <tag>span attribute="value"</tag>. An attribute does not always have a value, it can be blank!',
+    help : 'São atributos que estejam dentro de da abertura de uma tag, como: <tag>span attribute="value"</tag>. Um atributo nem sempre precisa ter um valor, podendo ficar em branco!',
     examples : [
-      '<strong>a[href]</strong> selects all <tag>a</tag> elements that have a <strong>href="anything"</strong> attribute.',
-      '<strong>[type]</strong> selects all elements that have a <strong>type="anything"</strong>. attribute'
+      '<strong>a[href]</strong> seleciona todos os elementos <tag>a</tag> que tenham o atributo <strong>href="anything"</strong>.',
+      '<strong>[type]</strong> seleciona todos os elementos que tenham o atributo <strong>type="anything"</strong>.'
     ],
     boardMarkup:`
     <bento><apple class="small"/></bento>
@@ -581,7 +581,7 @@ var levels = [
     <pickle/>`
   },
   {
-    selectorName: "Seletor de Atributo",
+    selectorName: "Seletor de Atributo (Attribute Selector)",
     helpTitle: "Selecione todos os elementos que têm um atributo específico",
     doThis : "Selecione os pratos para alguém",
     selector : "plate[for]",
