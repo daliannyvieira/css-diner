@@ -519,14 +519,14 @@ var levels = [
     `
   },
   {
-    selectorName: "Empty Selector",
-    helpTitle: "Select elements that don't have children",
-    doThis : "Select the empty bentos",
+    selectorName: "Seletores Vazios (Empty Selector)",
+    helpTitle: "Seletores cujo os elementos não tenham filhos",
+    doThis : "Selecione os bentos vazios",
     selector : "bento:empty",
     syntax: ":empty",
-    help : "Selects elements that don't have any other elements inside of them.",
+    help : "Selecione os elementos que não tenham nenhum outro elemento dentro deles.",
     examples : [
-      '<strong>div:empty</strong> selects all empty <tag>div</tag> elements.'
+      '<strong>div:empty</strong> seleciona todos os elementos vazios da <tag>div</tag>.'
     ],
     boardMarkup:`
     <bento/>
