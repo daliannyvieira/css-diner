@@ -499,15 +499,15 @@ var levels = [
     `
   },
   {
-    selectorName: "Last of Type Selector",
-    helpTitle: "Select the last element of a specific type",
-    doThis : "Select the last apple and orange",
+    selectorName: "Seletor Último do Tipo (Last of Type Selector)",
+    helpTitle: "Seleciona o último elemento de um tipo específico",
+    doThis : "Selecione a última maçã e laranja",
     selector : ".small:last-of-type",
     syntax: ":last-of-type",
-    help : "Selects each last element of that type within another element. Remember type refers the kind of tag, so <tag>p</tag> and <tag>span</tag> are different types. <br><br> I wonder if this is how the last dinosaur was selected before it went extinct.",
+    help : "Seleciona cada último elemento que esteja em outro elemento. Lembre-se que esse seletor se referencia ao tipo de tag, então <tag>p</tag> e <tag>span</tag> são tipos diferentes. <br><br> Eu me pergunto se foi assim que o último dinossauro foi selecionado antes de ser extinto.",
     examples : [
-      '<strong>div:last-of-type</strong> selects the last <tag>div</tag> in every element.',
-      '<strong>p span:last-of-type</strong> selects the last <tag>span</tag> in every <tag>p</tag>.'
+      '<strong>div:last-of-type</strong> seleciona a última <tag>div</tag> em cada elemento.',
+      '<strong>p span:last-of-type</strong> seleciona o último <tag>span</tag> em cada <tag>p</tag>.'
     ],
     boardMarkup : `
     <orange class="small"/>
