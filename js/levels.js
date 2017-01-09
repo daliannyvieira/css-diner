@@ -537,16 +537,16 @@ var levels = [
     <bento/>`
   },
   {
-    selectorName: "Negation Pseudo-class",
-    helpTitle: "Select all elements that don't match the negation selector",
-    doThis : "Select the big apples",
+    selectorName: "Pseudo Classe de Negação (Negation Pseudo-class)",
+    helpTitle: "Seleciona todos os elementos que não se encaixem no seletor",
+    doThis : "Selecione as maçãs grandes",
     selector : "apple:not(.small)",
     syntax: ":not(X)",
-    help : 'You can use this to select all elements that do not match selector <strong>"X"</strong>.',
+    help : 'Você pode usar isso para selecionar todos os elementos que não se encaixem no seletor <strong>"X"</strong>.',
     examples : [
-      '<strong>:not(#fancy)</strong> selects all elements that do not have <strong>id="fancy"</strong>.',
-      '<strong>div:not(:first-child)</strong> selects every <tag>div</tag> that is not a first child.',
-      '<strong>:not(.big, .medium)</strong> selects all elements that do not have <strong>class="big"</strong> or <strong>class="medium"</strong>.'
+      '<strong>:not(#fancy)</strong> seleciona todos os elementos que não tenham  <strong>id="fancy"</strong>.',
+      '<strong>div:not(:first-child)</strong> seleciona toda <tag>div</tag> que não seja a primeira filha (first-child).',
+      '<strong>:not(.big, .medium)</strong> seleciona todos os elementos que não tenham <strong>class="big"</strong> ou <strong>class="medium"</strong>.'
     ],
     boardMarkup: `
     <plate id="fancy">
