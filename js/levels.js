@@ -476,14 +476,14 @@ var levels = [
     `
   },
   {
-    selectorName: "Only of Type Selector",
-    helpTitle: "Select elements that are the only ones of their type within of their parent element",
+    selectorName: "Seletor Único do Tipo (Only of Type Selector)",
+    helpTitle: "Seleciona os elementos que são os únicos do tipo em seu elemento-pai",
     selector : "apple:only-of-type",
     syntax: ":only-of-type",
-    doThis : "Select the apple on the middle plate",
-    help : "Selects the only element of its type within another element.",
+    doThis : "Seleciona a maçã no meio do prato",
+    help : "Seleciona o único elemento do seu tipo que esteja contido em outro elemento.",
     examples : [
-      '<strong>p span:only-of-type</strong> selects a <tag>span</tag> within any <tag>p</tag> if it is the only <tag>span</tag> in there.'
+      '<strong>p span:only-of-type</strong> seleciona um <tag>span</tag> que contenha qualquer <tag>p</tag> se é apenas o única <tag>span</tag> ali.'
     ],
     boardMarkup: `
     <plate id="fancy">
